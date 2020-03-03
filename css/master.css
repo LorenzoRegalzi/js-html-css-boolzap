@@ -6,12 +6,12 @@
 .sfondo-main{
     height: 100vh;
     width: 100vw;
-    background-color: #ffffff;
+    background-color: #dfdfd9;
 }
 .sfondoheader{
     width: 100vw;
     height: 15%;
-    background-color: #1ebea5;
+    background-color:#459e93 ;
 }
 .barista{
     position: absolute;
@@ -33,46 +33,96 @@
     overflow-y: auto;
 }
 .utente{
-    background-color: #ffffff;
+    background-color: #ededed;
     width: 100%;
     height: 11%;
 }
+.imgutente{
+
+    width: 60px;
+    height: 60px;
+    position: relative;
+    top: 5px;
+    left: 5px;
+    float: left;
+
+}
+.imgutente img{
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+    float: left;
+}
+.icons{
+    width: 50px;
+    height: 60px;
+    position: relative;
+    top: 5px;
+    right: 5px;
+    float: right;
+}
+.icons i{
+    color: #bababa;
+    position: relative;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 25px;
+}
 .notifiche{
-    background-color: #d0e9ea;
+    background-color: #a7ddf9;
 }
 .mex{
-    height: 78%;
+    height: 70%;
     background-color: pink;
     overflow-y: auto;
 }
 .search{
-    background-color: red;
-    position: fixed;
-    width: 30%;
-    height: 60px;
+    background-color: #f8f8f8;
+    height: 8%;
 }
 .messaggio{
     height: 72px;
     width: 100%;
-    background-color: green;
-    border: 1px solid black;
-
+    background-color: #ffffff;
+    border-top: 1px solid #f8f8f8;
+    padding-top: 5px;
+}
+.messaggio img{
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+    float: left;
+}
+.messaggio p{
+    z-index: 0;
 }
 .destinatario{
     position: fixed;
-    background-color: #ffffff;
+    background-color:#ededed;
     width: 50%;
-    height: 72.6px;
+    height: 68px;
+    border-left: 2px solid #e2e2e2;
+}
+.informazioni{
+    height: 100%;
+    width: 300px;
+
+    position: relative;
+    left: 10px;
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
 .desk{
     height: 900px;
     width: 100%;
-    background-color: red;
+    background-image: url(https://www.jakpost.travel/wimages/large/119-1190275_worlds-okayest-bard-i-made-a-d-d.png);
+    background-size: contain;
 }
 .testo{
     position: fixed;
     top: 87%;
-    background-color: yellow;
+    background-color: #f4f0ed;
     width: 50%;
     height: 72.6px;
 }
