@@ -3,3 +3,76 @@
     padding: 0;
     box-sizing: border-box;
 }
+.sfondo-main{
+    height: 100vh;
+    width: 100vw;
+    background-color: #ffffff;
+}
+.sfondoheader{
+    width: 100vw;
+    height: 15%;
+    background-color: #1ebea5;
+}
+.barista{
+    position: absolute;
+    margin-left: 10%;
+    margin-top: 2.33vh;
+    width: 30%;
+    height: 95vh;
+    background-color: red;
+    float:left;
+}
+.chat{
+    position: absolute;
+    margin-left: 40%;
+    margin-top: 2.33vh;
+    width: 50%;
+    height: 95vh;
+    background-color: yellow;
+    float:left;
+    overflow-y: auto;
+}
+.utente{
+    background-color: #ffffff;
+    width: 100%;
+    height: 11%;
+}
+.notifiche{
+    background-color: #d0e9ea;
+}
+.mex{
+    height: 78%;
+    background-color: pink;
+    overflow-y: auto;
+}
+.search{
+    background-color: red;
+    position: fixed;
+    width: 30%;
+    height: 60px;
+}
+.messaggio{
+    height: 72px;
+    width: 100%;
+    background-color: green;
+    border: 1px solid black;
+
+}
+.destinatario{
+    position: fixed;
+    background-color: #ffffff;
+    width: 50%;
+    height: 72.6px;
+}
+.desk{
+    height: 900px;
+    width: 100%;
+    background-color: red;
+}
+.testo{
+    position: fixed;
+    top: 87%;
+    background-color: yellow;
+    width: 50%;
+    height: 72.6px;
+}
