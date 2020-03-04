@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
 }
 .sfondo-main{
     height: 100vh;
@@ -27,15 +28,18 @@
     margin-left: 40%;
     margin-top: 2.33vh;
     width: 50%;
+    min-width: 50%;
     height: 95vh;
+    min-height: 95vh;
     background-color: yellow;
     float:left;
-    overflow-y: auto;
+
 }
 .utente{
     background-color: #ededed;
     width: 100%;
     height: 11%;
+    min-height: 75px;
 }
 .imgutente{
 
@@ -68,18 +72,35 @@
     top: 50%;
     transform: translate(-50%,-50%);
     font-size: 25px;
+    cursor: pointer;
 }
-.notifiche{
-    background-color: #a7ddf9;
+.icons i:active{
+    color: white;
 }
 .mex{
     height: 70%;
+    min-height: 70%;
     background-color: pink;
     overflow-y: auto;
 }
 .search{
     background-color: #f8f8f8;
-    height: 8%;
+    height: 55px;
+    min-height: 8%;
+    padding: 10px;
+    background-color: #f6f6f6;
+}
+.search input{
+    height: 100%;
+    width: 100%;
+    border-style: none;
+
+}
+.search i{
+    position: relative;
+    bottom:25px;
+    left: 10px;
+    color: #bfc1c3;
 }
 .messaggio{
     height: 72px;
@@ -91,6 +112,14 @@
 }
 .messaggio:hover{
     background-color: #eceeee
+}
+.notifiche {
+    background-color: #a7ddf9;
+    cursor:default;
+    border: none;
+}
+.notifiche:hover {
+    background-color: #a7ddf9;
 }
 .messaggio img{
     width: 60px;
@@ -113,31 +142,81 @@
     margin-right: 5px;
 }
 .destinatario{
-    position: fixed;
+    position: relative;
     background-color:#ededed;
-    width: 50%;
-    height: 68px;
+    width: 100%;
+    height: 75px;
+    min-height: 75px;
     border-left: 2px solid #e2e2e2;
 }
 .informazioni{
     height: 100%;
     width: 300px;
-
     position: relative;
     left: 10px;
     padding-top: 15px;
     padding-bottom: 15px;
 }
 .desk{
-    height: 900px;
+    height: 600px;
     width: 100%;
     background-image: url(https://www.jakpost.travel/wimages/large/119-1190275_worlds-okayest-bard-i-made-a-d-d.png);
     background-size: contain;
+    overflow-y: auto;
 }
 .testo{
     position: fixed;
-    top: 87%;
+    top: 624px;
     background-color: #f4f0ed;
     width: 50%;
-    height: 72.6px;
+    height: 75px;
+    min-height: 75px;
+}
+.emoticons{
+    width: 13%;
+    height:100%;
+    float: left;
+}
+.vocale{
+    width: 13%;
+    height:100%;
+    float: left;
+}
+.grande{
+    width: 74%;
+    height: 100%;
+    float: left;
+    background-color: #f4f0ed;
+}
+.grande input{
+    padding: 10px;
+    border-radius: 2px;
+}
+.mexyou{
+    width: 100%;
+    height: 100px;
+
+
+}
+.mexme{
+    width: 100%;
+    height: 100px;
+
+}
+.io{
+    width: 300px;
+    height: 100%;
+    background-color: #ffffff;
+    margin-left: 10px;
+    border-radius: 10px;
+    padding: 10px;
+}
+.tu{
+    width: 300px;
+    height: 100%;
+    background-color: #e0f8c7;
+    float: right;
+    margin-right: 10px;
+    border-radius: 10px;
+    padding: 10px;
 }
