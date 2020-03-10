@@ -201,13 +201,13 @@ button{
     padding: 10px;
     border-radius: 2px;
 }
-.lista-nomi{
+.liste-nome{
     width: 300px;
     background-color: transparent;
     margin-left: 10px;
     border-radius: 10px;
     padding: 10px;
-
+    float: right;
 }
 .tu{
     width: 300px;
@@ -232,17 +232,8 @@ button{
     border-radius: 10px;
     padding: 10px;
 }
-.liste-nome {
-
-    background-color: transparent;
-    width: 300px;
-    margin-left: 10px;
-    border-radius: 10px;
-    padding: 10px;
-    float: right;
-}
 .maggio{
-    margin-top: 70px;
+
     background-color: #ffffff;
     width: 300px;
     height: 70px;
@@ -252,8 +243,8 @@ button{
 }
 .giugno{
     
-    background-color: #e0f8c7;
-    float: right;
+    background-color: #d5f9ba;
+    float:right;
     width: 300px;
     height: 70px;
     margin-left: 10px;
